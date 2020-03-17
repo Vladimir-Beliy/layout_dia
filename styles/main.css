@@ -80,10 +80,12 @@ body {
 .header {
   position: relative;
   max-width: 1600px;
-  background-color: #008aff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: auto;
   padding: 45px 50px 205px;
   border-bottom-left-radius: 200px;
+  background-color: #008aff;
   color: white; }
   .header__wrap {
     max-width: 1140px;
